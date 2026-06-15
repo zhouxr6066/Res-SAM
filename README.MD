@@ -186,7 +186,6 @@ Once satisfied with the adjustments, click "Save the Image" to save the processe
 The saved image includes the processed visualization.
 
 
-
 # Data Input & Output
 
 - Input: The software supports PNG and JPEG formats for GPR radar images.
