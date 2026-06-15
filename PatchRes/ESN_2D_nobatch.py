@@ -23,8 +23,8 @@ class ESN_2D(torch.nn.Module):
         self.n_reservoir = n_reservoir  # Number of reservoir neurons
         self.spectral_radius = spectral_radius  # Spectral radius for the reservoir
         self.alpha = alpha  # Ridge regression coefficient
-        self.connectivity = connectivity # 连接密度，实现了对水库内部连接的稀疏化。
-        self.noise_level = noise_level  # 在状态更新中加入噪声，以增加模型的鲁棒性
+        self.connectivity = connectivity
+        self.noise_level = noise_level
         self.start_node = start_node
         self.activation = activation
 
